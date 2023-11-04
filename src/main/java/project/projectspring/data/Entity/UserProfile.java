@@ -3,7 +3,7 @@ package project.projectspring.data.Entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-
+// 깃허브 테스트용
 // @Entity 이거 무슨 jpa같은데
 public class UserProfile {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 자동 증가(auto-increment) 옵션
